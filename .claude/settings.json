@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(./data_raw/**)",
+      "Write(./data_raw/**)",
+      "Edit(./decisions.md)",
+      "Write(./decisions.md)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./.Renviron)",
+      "Read(~/.Renviron)",
+      "Read(~/.ssh/**)"
+    ]
+  }
+}
